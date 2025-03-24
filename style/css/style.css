@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.recherche .form-control{
+	width: 320px;
+}
+
+/*------section 1----*/
+ul.categories{
+	font-size: 12px;
+}
+ul.categories li:hover{
+	color: whitesmoke;
+}
+aside li{
+	font-size: 13px;
+	margin-top: 10px;
+}
+aside li:hover{
+	color: orange;
+}
+/*------produits-hover----*/
+.card{
+	transition: all 0.3s;
+}
+.card:hover{
+	scale: 1.05;
+}
+footer li .bi-facebook{
+	color: blueviolet;
+}
+footer li .bi-twitter{
+	color: royalblue;
+}
+footer li .bi-instagram{
+	color: orange;
+}
+footer li .bi-linkedin{
+	color: royalblue;
+}
+footer li .bi-apple{
+	color: grey;
+}
+footer li .bi-google-play{
+	color: green;
+}
+@media (min-width: 768px) {
+.card img {
+    height: 8em;
+  }
+}
+.cards-wrapper{
+	display:flex;
+}
+.coffe img{
+	height: 100%;
+	width: 100%;
+
+}
+.services button{
+	width: 420px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.services .dropdown{
+	margin-bottom: 15px;
+}
+.services i{
+	font-size: 20px;
+	color: orange;
+}
+

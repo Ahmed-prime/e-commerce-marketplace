@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Acceuil - MARKET-PLACE | Vente de produits en ligne</title>
+    <meta name="description" content="Vente de produits high-tech, sport, electronique en ligneet bien plus, Livraison gratuite à partir de 15000 FCFA. Vos articles à petits prix, livraison partout au Sénégal">
+    <meta http-equiv="refresh" content="45"> 
+    <meta name="robots" content="index,follow">
+    <meta name="keywords" content="vente,produits,informatique,ordinateur,sport,technologie,eclectronique ">
+	<meta name="description" content="une breve description de la page qui doit etre differente dans chaque page">
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="icons-1.9.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="style/css/style.css">
+	<script type="text/javascript" src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<header class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+		<div class="container">
+			<a href="index.html" class="navbar-brand fw-bold" title="Afficher la page d'Acceuil">
+					<span class="bg-primary bg-gradient  rounded-3 text-light fs-5">Market </span>Place
+					</a>
+
+			<button type="button" title="Affichier menu" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#Parfait">
+				<i class="navbar-toggler-icon"></i>
+			</button>
+			<nav class="nav offcanvas offcanvas-end" id="Parfait">
+				<div class="offcanvas-header">
+					<h5>
+						<a href="index.html" class="navbar-brand mx-3 fw-bold" title="Afficher la page d'Acceuil">
+					<span class="bg-primary bg-gradient  rounded-3 text-light fs-5">Market </span><span class="text-dark">Place</span>
+					</a>
+					</h5>
+					<button class=" btn btn-close btn-outline-danger" type="button" title="Fermer" data-bs-dismiss="offcanvas">
+					</button>
+				</div>
+				<div class="offcanvas-body bg-dark mx-auto">
+					<ul class="navbar-nav nav-pills">
+						<li class="nav-item me-2 ">
+							<a href="index.html" class="nav-link" title="Afficher la page d'acceuil">
+								<i class="bi-house-fill"></i>
+								Acceuil
+							</a>
+						</li>	
+						<li class="mx-auto recherche">
+							<form class="d-flex  ">
+      						<input class="form-control me-2 " type="search" placeholder="Rechercher un produit" aria-label="Search">
+      							<button class="btn btn-outline-info" type="submit" title="Rechercher">Rechercher</button>
+   						 </form>
+   						 </li>
+   						 <li class="nav-item dropdown ">
+							<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" title="Se connecter">
+								<img src="style/image/presentation/imagefavicon.png" alt="Profile" class="rounded-circle" width="25" height="25">
+								Se connecter
+							</a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-item">
+									<a href="vue/connexion/connexion.html" class="nav-link text-dark" title="Afficher mon profil" title="Afficher mon profil">
+									<i class="bi-person-fill"></i>
+									Afficher mon profil
+									</a>
+								</li>
+								<li class="dropdown-item">
+									<a href="#" class="nav-link text-dark" title="Afficher mon tableau de bord" title="Mon tableau de bord">
+										<i class="bi-speedometer2"></i>
+										Mon tableau de bord
+									</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li class="dropdown-item">
+									<a href="#" title=" Cliquer ici pour se deconnecter" class="nav-link text-dark" title="Se déconnecter">
+										<i class="bi-power"></i>
+										Se déconnecter
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" title="Aide">
+								<i class="bi bi-question-circle"></i>
+								Aide
+							</a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-item">
+									<a href="vue/contact/contact.html" class="nav-link text-dark">Contacter nous</a>
+								</li>
+								<li class="dropdown-item">
+									<a href="" class="nav-link text-dark">Passer et suivre ma commande</a>
+								</li>
+								<li class="dropdown-item">
+									<a href="" class="nav-link text-dark">Annuler ma commande</a>
+								</li>
+								<li class="dropdown-item">
+									<a href="vue/paiement/paiement.html" class="nav-link text-dark">Paiememt et compte</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link" title="Panier">
+								<i class="bi-cart"></i>
+								<span class="badge bg-danger">O</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link" title="Liste d'envie">
+								<i class="bi-heart"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>	
+	</header>
+	<br>
+	
+	<main class="main-home mt-5">
+		<div class="container">
+			<section >
+				<div class="container">
+					<button data-bs-toggle="collapse" data-bs-target="#catégories" class="btn btn-warning col-12 d-lg-none my-3 text-white btn-outline-danger">Découvrir nos produits <i class="bi bi-caret-down-fill "></i></button>
+					<div class="collapse bg-info rounded" id="catégories">
+						<nav class="nav mx-2 mb-3 bg-info">
+								<ul class="navbar-nav categories ">
+									<li class="nav-item">
+										<a href="vue/produits/telephones-tablettes/all.html"class="nav-link"> 
+										Telephones et tablettes</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/electromenager/all.html"class="nav-link">Electromenager</a>
+									</li>
+									<li class="nav-item ">
+										<a href="vue/produits/electronique/all.html" class="nav-link">Electronique</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/informatique/all.html"class="nav-link">Informatique</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/mode/all.html"class="nav-link">Mode</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/sport/all.html"class="nav-link">Articles de sports</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/jeux-consoles/all.html"class="nav-link">Jeux videos et consoles</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/autres/all.html"class="nav-link">Autres categories</a>
+									</li>
+								</ul>
+						</nav>
+					</div>
+					<div class="row ">
+						<div class="col-3 col-md-3 col-lg-2 bg-info rounded  d-md-block d-none">
+							<nav class="nav mt-2 mb-2">
+								<ul class="navbar-nav categories">
+									<li class="nav-item">
+										<a href="vue/produits/telephones-tablettes/all.html"class="nav-link"> 
+										Telephones et tablettes</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/electromenager/all.html"class="nav-link">Electromenager</a>
+									</li>
+									<li class="nav-item ">
+										<a href="vue/produits/electronique/all.html" class="nav-link">Electronique</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/informatique/all.html"class="nav-link">Informatique</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/mode/all.html"class="nav-link">Mode</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/sport/all.html"class="nav-link">Articles de sports</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/jeux-consoles/all.html"class="nav-link">Jeux videos et consoles</a>
+									</li>
+									<li class="nav-item">
+										<a href="vue/produits/autres/all.html"class="nav-link">Autres categories</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!----------------------carousel--------------------------->
+						<div class="col-12 col-sm-12 col-md-9 col-lg-8 border border-3 border-light rounded ">
+							<article>
+								<div id="mon-carousel" data-bs-touch="true" data-bs-keyboard="false" class="carousel slide mx-auto" data-bs-ride="carousel" data-bs-pause="false" data-bs-wrap="false">
+									<ol class="carousel-indicators">
+										<li class="active" aria-current="true" data-bs-slide-to="0" data-bs-target="#mon-carousel"aria-label="L'image 1" aria-contols="Parfai"></li>
+										<li data-bs-slide-to="1" data-bs-target="#mon-carousel"></li>
+										<li data-bs-slide-to="2" data-bs-target="#mon-carousel"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div id="Parfai" class="carousel-item active" data-bs-interval="2000">
+											<img src="style/image/presentation/pub-1.jpg" alt="Tout pour la cuisine"class="img-thumbnail">
+										</div>
+										<div class="carousel-item" data-bs-interval="2000">
+											<img src="style/image/presentation/pub-2.jpg" alt="Vos produits de beauté"class="img-thumbnail">
+										</div>
+										<div class="carousel-item" data-bs-interval="2000">
+											<img src="style/image/presentation/pub-3.jpg" alt=""class="img-thumbnail">
+										</div>
+									</div>
+									<button type="button" title="precedent" class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#mon-carousel">
+										<i class="carousel-control-prev-icon" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+									<button type="button" title="suivant" class="carousel-control-next" data-bs-slide="next" data-bs-target="#mon-carousel">
+										<i class="carousel-control-next-icon" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+										</div>
+				
+							</article>
+						</div>
+						<!----------------------------End------------------->
+						<div class="col-2 col-md-4 col-lg-2 d-lg-block d-none">
+								<div class="row">
+									<aside class="mt-3">
+										<ul class=" list-inline fs-4 border border-3 border-warning rounded shadow-lg me-1">
+										<li class="nav-item">
+											<a href="" class="nav-link"><i class="bi bi-question-circle fw-bold">  Centre d'assistance</i></a>
+											<a href="" class="nav-link">Guide du service client</a>
+										</li>
+										<li class="nav-item">
+											<a href="" class="nav-link"><i class="bi bi-telephone fw-bold">  Commandez</i></a>
+											<a href="" class="nav-link">au 775473669</a>
+										</li>
+										<li class="nav-item">
+											<li class="nav-item">
+											<a href="" class="nav-link"><i class="bi bi-house fw-bold ">  Vendez sur notre site</i></a>
+											<a href="" class="nav-link">Ouvrez votre shop ici</a>
+										</li>
+									</ul>	
+									</aside>
+								</div>
+								<div class="row coffe">
+									<aside class="mb-3 mt-3">
+										<img src="style/image/presentation/cofee.gif" alt="coffe" class="border border-3 border-light rounded shadow-lg">
+									</aside>
+								</div>
+							
+							</div>
+						</div>
+					</div>
+			</section>
+
+				<!-- ----------id carousel-1------------------------------------ -->
+
+			<section class="mt-5 position-relative shadow-lg rounded">
+				<a href="vue/produits/telephones-tablettes/all.html" class="text-decoration-none text-danger position-absolute end-0 me-2 mt-2">
+				Voir plus
+				<i class="bi-chevron-right text-dark"></i>
+				</a>
+				<h2 class="bg-info rounded-top px-2 text-center fs-2 p-1rounded">Telephones et tablettes</h2>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto rounded">
+							<article>
+								<div id="carousel-1" data-bs-touch="true" data-bs-keyboard="false" class="carousel slide mx-auto" data-bs-ride="false" data-bs-pause="false" data-bs-wrap="false">
+									<div class="carousel-inner">
+										<div class="carousel-item active pt-2">
+								<!-- Debut section carousel item 1 -->
+								<div class="row  me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/telephones-tablettes/1.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/1.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Infinix Hot 30i - 4G - 6,6"...</h5>
+									<p class="text-center">65 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-25%</div>
+									<a href="vue/produits/telephones-tablettes/2.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/2.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Tecno Camon 20 Pro...</h5>
+									<p class="text-center">65 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/telephones-tablettes/3.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/3.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Infinix Hot 30i - 4G - 6,6"...</h5>
+									<p class="text-center">138 600 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-15%</div>
+									<a href="vue/produits/telephones-tablettes/4.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/4.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Samsung Galaxy A54...</h5>
+									<p class="text-center">138 600 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-10%</div>
+									<a href="vue/produits/telephones-tablettes/5.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/5.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Easy Tablette Enfant Ecran...</h5>
+									<p class="text-center">18 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/telephones-tablettes/6.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/6.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">BEBE TAB Tablette enfant..</h5>
+									<p class="text-center">32 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+						</div>
+						<!-- fin section carousel item 1 -->
+										</div>
+				<!--------------------caousel item 2------------------------------>
+										<div class="carousel-item pt-2">
+											<div class="row me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/telephones-tablettes/7.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/7.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Atouch Tablette Éduca...</h5>
+									<p class="text-center">26 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/telephones-tablettes/8.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/8.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Epad Tablette Enfa...</h5>
+									<p class="text-center">26 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/telephones-tablettes/9.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/9.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Guava G121 - Ecran 1.8"...</h5>
+									<p class="text-center">4 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/telephones-tablettes/10.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/10.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">XIAOMI Redmi A2+ - 3...</h5>
+									<p class="text-center">52 400 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/telephones-tablettes/11.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/11.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">XIAOMI Redmi Note 12 Memoi...</h5>
+									<p class="text-center">127 950 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/telephones-tablettes/12.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/telephones-tablettes/12.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic Tablette enfant...</h5>
+									<p class="text-center">27 900 FCFA</p>
+									</a>
+								</article>
+								</div>
+								</div>
+										</div>
+										<!-- END carousel item -->
+									</div>
+									<button type="button" title="precedent" class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#carousel-1">
+										<i class="carousel-control-prev-icon bg-dark me-auto rounded-circle" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+									<button type="button" title="suivant" class="carousel-control-next " data-bs-slide="next" data-bs-target="#carousel-1">
+										<i class="carousel-control-next-icon bg-dark ms-auto rounded-circle" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+										</div>
+							</article>
+						</div>
+			</section>
+	<!-- ---------------------------		FIN section------------------------------>
+<!-- ----------id carousel-2 Elecromenager------------------------------------ -->
+	<section class="mt-5 position-relative shadow-lg rounded">
+				<a href="vue/produits/electromenager/all.html" class="text-decoration-none text-danger position-absolute end-0 me-2 mt-2">
+				Voir plus
+				<i class="bi-chevron-right text-dark"></i>
+				</a>
+				<h2 class="bg-info rounded-top px-2 text-center fs-2 p-1rounded">Electromenager</h2>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto rounded">
+							<article>
+								<div id="carousel-2" data-bs-touch="true" data-bs-keyboard="false" class="carousel slide mx-auto" data-bs-ride="false" data-bs-pause="false" data-bs-wrap="false">
+									<div class="carousel-inner">
+										<div class="carousel-item active pt-2">
+								<!-- Debut section carousel item 1 -->
+								<div class="row  me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/1.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/1.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Astech Réfrigé  Combiné 3 Ti...</h5>
+									<p class="text-center">172 400 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-45%</div>
+									<a href="vue/produits/electromenager/2.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/2.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">SMART TECHNOLOGY ...</h5>
+									<p class="text-center">58 750 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/3.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/3.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Réfrigérateur side by side...</h5>
+									<p class="text-center">513 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/4.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/4.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Astech Machine à laver MLG62</h5>
+									<p class="text-center">172 400 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/5.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/5.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Cuisinière à Gaz.. 4 Feux...</h5>
+									<p class="text-center">164 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/6.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/6.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Philips Blender philips HR...</h5>
+									<p class="text-center">32 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+						</div>
+						<!-- fin section carousel item 1 -->
+										</div>
+				<!--------------------caousel item 2------------------------------>
+										<div class="carousel-item pt-2">
+											<div class="row me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/7.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/7.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Generic Mini machin...</h5>
+									<p class="text-center">29 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/8.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/8.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Astech Plaque de cui...</h5>
+									<p class="text-center">16 790 FCFA</p>
+									</a>
+								</article>
+							</div>
+							
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/9.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/9.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Astech Micro-ond...</h5>
+									<p class="text-center">63 990 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/10.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/10.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Bruhm Cuisinière à G...</h5>
+									<p class="text-center">75 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/11.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/11.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic Hachoir à Viand...</h5>
+									<p class="text-center">23 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electromenager/12.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electromenager/12.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic Hachoir à Viand...</h5>
+									<p class="text-center">>27 900 FCFA</p>
+									</a>
+								</article>
+								</div>
+								</div>
+										</div>
+										<!-- END carousel item -->
+									</div>
+									<button type="button" title="precedent" class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#carousel-2">
+										<i class="carousel-control-prev-icon bg-dark me-auto rounded-circle" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+									<button type="button" title="suivant" class="carousel-control-next " data-bs-slide="next" data-bs-target="#carousel-2">
+										<i class="carousel-control-next-icon rounded-circle bg-dark ms-auto" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+										</div>
+							</article>
+						</div>
+			</section>
+			
+	<!-- ---------------------------		FIN section 2------------------------------>
+<!-- ----------id carousel-3 electronique------------------------------------ -->
+<section class="mt-5 position-relative shadow-lg rounded">
+				<a href="vue/produits/electronique/all.html" class="text-decoration-none text-danger position-absolute end-0 me-2 mt-2">
+				Voir plus
+				<i class="bi-chevron-right text-dark"></i>
+				</a>
+				<h2 class="bg-info rounded-top px-2 text-center fs-2 p-1rounded">Electronique</h2>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto rounded">
+							<article>
+								<div id="carousel-3" data-bs-touch="true" data-bs-keyboard="false" class="carousel slide mx-auto" data-bs-ride="false" data-bs-pause="false" data-bs-wrap="false">
+									<div class="carousel-inner">
+										<div class="carousel-item active pt-2">
+								<!-- Debut section carousel item 1 -->
+								<div class="row  me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-10%</div>
+									<a href="vue/produits/electronique/1.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/1.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">CORALSTAR Haut-parleur...</h5>
+									<p class="text-center">17 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electronique/2.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/2.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">SMART TECHNOLOGY ...</h5>
+									<p class="text-center">58 750 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electronique/3.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/3.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Generic Support multifonctio...</h5>
+									<p class="text-center">5 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electronique/4.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/4.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Oraimo Speaker Haut Parleur...</h5>
+									<p class="text-center">18 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-10%</div>
+									<a href="vue/produits/electronique/5.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/5.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">SMART TECHNOLOGY ...</h5>
+									<p class="text-center">119 300 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electronique/6.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/6.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">ICONA Téléviseur Smart Tv 43...</h5>
+									<p class="text-center">106 600 FCFA</p>
+									</a>
+								</article>
+							</div>
+						</div>
+						<!-- fin section carousel item 1 -->
+										</div>
+				<!--------------------caousel item 2------------------------------>
+										<div class="carousel-item pt-2">
+											<div class="row me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electronique/7.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/7.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Mini Led USB - L...</h5>
+									<p class="text-center">2 250 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electronique/8.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/8.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">P47 Casque d'écoute...</h5>
+									<p class="text-center">3 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electronique/9.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/9.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Generic Android 10.1 TV...</h5>
+									<p class="text-center">16 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electronique/10.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/10.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Smart 10 balance wh...</h5>
+									<p class="text-center">1 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electronique/11.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/11.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Premium Chapelet unisex...</h5>
+									<p class="text-center">2 390 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/electronique/12.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/electronique/12.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">XIAOMI TV STICK 4K...</h5>
+									<p class="text-center">34 900 FCFA</p>
+									</a>
+								</article>
+								</div>
+								</div>
+										</div>
+										<!-- END carousel item -->
+									</div>
+									<button type="button" title="precedent" class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#carousel-3">
+										<i class="carousel-control-prev-icon bg-dark me-auto rounded-circle" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+									<button type="button" title="suivant" class="carousel-control-next " data-bs-slide="next" data-bs-target="#carousel-3">
+										<i class="carousel-control-next-icon rounded-circle bg-dark ms-auto" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+										</div>
+							</article>
+						</div>
+			</section>
+			
+	<!-- ---------------------------		FIN section 3------------------------------>
+<!-- ----------id carousel-4 Informatique------------------------------------ -->
+<section class="mt-5 position-relative shadow-lg rounded">
+				<a href="vue/produits/informatique/all.html" class="text-decoration-none text-danger position-absolute end-0 me-2 mt-2">
+				Voir plus
+				<i class="bi-chevron-right text-dark"></i>
+				</a>
+				<h2 class="bg-info rounded-top px-2 text-center fs-2 p-1rounded">Informatique</h2>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto rounded">
+							<article>
+								<div id="carousel-4" data-bs-touch="true" data-bs-keyboard="false" class="carousel slide mx-auto" data-bs-ride="false" data-bs-pause="false" data-bs-wrap="false">
+									<div class="carousel-inner">
+										<div class="carousel-item active pt-2">
+								<!-- Debut section carousel item 1 -->
+								<div class="row  me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/informatique/1.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/1.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Hp Mini HP Stream - Ecran...</h5>
+									<p class="text-center">99 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/informatique/2.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/2.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Lenovo- 1000Go Disqu...</h5>
+									<p class="text-center">156 350 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-10%</div>
+									<a href="vue/produits/informatique/3.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/3.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Hp Imprimante Tout-en-Un Des...</h5>
+									<p class="text-center">34 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/informatique/4.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/4.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Amplificateur de signal wifi...</h5>
+									<p class="text-center">9 990 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-5%</div>
+									<a href="vue/produits/informatique/5.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/5.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic Course De Souris Radio-ar...</h5>
+									<p class="text-center">5 094 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/informatique/6.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/6.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Clé USB 128GB Metal étanche 3D...</h5>
+									<p class="text-center">3 750 FCFA</p>
+									</a>
+								</article>
+							</div>
+						</div>
+						<!-- fin section carousel item 1 -->
+										</div>
+				<!--------------------caousel item 2------------------------------>
+										<div class="carousel-item pt-2">
+											<div class="row me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/informatique/7.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/7.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Drone de loisirs avec camera...</h5>
+									<p class="text-center">24 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/informatique/8.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/8.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Generic 10000...</h5>
+									<p class="text-center">5 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/informatique/9.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/9.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Disque Dur Externe...</h5>
+									<p class="text-center">29 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/informatique/10.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/10.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Hp Ecran ordinateu...</h5>
+									<p class="text-center">270 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/informatique/11.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/11.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic Kit de Nettoyage..</h5>
+									<p class="text-center">2 390 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/informatique/12.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/informatique/12.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Hp Wireless Keyboa...</h5>
+									<p class="text-center">32 000 FCFA</p>
+									</a>
+								</article>
+								</div>
+								</div>
+										</div>
+										<!-- END carousel item -->
+									</div>
+									<button type="button" title="precedent" class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#carousel-4">
+										<i class="carousel-control-prev-icon bg-dark me-auto rounded-circle" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+									<button type="button" title="suivant" class="carousel-control-next " data-bs-slide="next" data-bs-target="#carousel-4">
+										<i class="carousel-control-next-icon rounded-circle bg-dark ms-auto" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+										</div>
+							</article>
+						</div>
+			</section>
+			
+	<!-- ---------------------FIN section 4------------------------------>	
+
+	<!-- ----------id carousel-5 Sport----------------- -->
+		<section class="mt-5 position-relative shadow-lg rounded">
+				<a href="vue/produits/sport/all.html" class="text-decoration-none text-danger position-absolute end-0 me-2 mt-2">
+				Voir plus
+				<i class="bi-chevron-right text-dark"></i>
+				</a>
+				<h2 class="bg-info rounded-top px-2 text-center fs-2 p-1rounded">Sport</h2>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto rounded">
+							<article>
+								<div id="carousel-5" data-bs-touch="true" data-bs-keyboard="false" class="carousel slide mx-auto" data-bs-ride="false" data-bs-pause="false" data-bs-wrap="false">
+									<div class="carousel-inner">
+										<div class="carousel-item active pt-2">
+								<!-- Debut section carousel item 1 -->
+								<div class="row  me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/sport/1.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/1.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Kalenji Chaussures De Running...</h5>
+									<p class="text-center">11 235 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-10%</div>
+									<a href="vue/produits/sport/2.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/2.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Generic Bandes élastiques de résistance</h5>
+									<p class="text-center">5 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/sport/3.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/3.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Kipsta Ballon De Football Cousu Machine...</h5>
+									<p class="text-center">10 200 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-25%</div>
+									<a href="vue/produits/sport/4.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/4.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">TARMAK Ballon de basket adulte R100 taille 7...</h5>
+									<p class="text-center">9 990 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/sport/5.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/5.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic Roue Abdominale+punsh up + corde</h5>
+									<p class="text-center">8 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/sport/6.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/6.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Domyos HALTERES TONE DUMBELL 2*5 Kg...</h5>
+									<p class="text-center">22 470 FCFA</p>
+									</a>
+								</article>
+							</div>
+						</div>
+						<!-- fin section carousel item 1 -->
+										</div>
+				<!--------------------caousel item 2------------------------------>
+										<div class="carousel-item pt-2">
+											<div class="row me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/sport/7.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/7.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Kipsta Sac Sport 20l - Essential Bleu</h5>
+									<p class="text-center">6 420 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/sport/8.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/8.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Kalenji PANTALON DE RUNNIN...</h5>
+									<p class="text-center">13 910 FCFA</p>
+									</a>
+								</article>
+							</div>
+							
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/sport/9.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/9.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Outshock GANTS DE BOXE 100 ROUGES DEBU...</h5>
+									<p class="text-center">10 700 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/sport/10.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/10.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Kalenji Montre chronomètre de course...</h5>
+									<p class="text-center">8 025 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/sport/11.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/11.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">CORENGTH Kit Haltères Musculation 20kg...</h5>
+									<p class="text-center">47 540 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/sport/12.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/sport/12.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic Roue Abdominale+punsh up + corde</h5>
+									<p class="text-center">8 500 FCFA</p>
+									</a>
+								</article>
+								</div>
+								</div>
+										</div>
+										<!-- END carousel item -->
+									</div>
+									<button type="button" title="precedent" class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#carousel-5">
+										<i class="carousel-control-prev-icon bg-dark me-auto rounded-circle" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+									<button type="button" title="suivant" class="carousel-control-next " data-bs-slide="next" data-bs-target="#carousel-5">
+										<i class="carousel-control-next-icon rounded-circle bg-dark ms-auto" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+										</div>
+							</article>
+						</div>
+			</section>	
+	<!-- ---------------------------FIN sport 5------------------------------>				<!-- ----------id carousel-6 Jeux videos et consoles----------------- -->
+		<section class="mt-5 position-relative shadow-lg rounded">
+				<a href="vue/produits/jeux-consoles/all.html" class="text-decoration-none text-danger position-absolute end-0 me-2 mt-2">
+				Voir plus
+				<i class="bi-chevron-right text-dark"></i>
+				</a>
+				<h2 class="bg-info rounded-top px-2 text-center fs-2 p-1rounded">Jeux videos et consoles</h2>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto rounded">
+							<article>
+								<div id="carousel-6" data-bs-touch="true" data-bs-keyboard="false" class="carousel slide mx-auto" data-bs-ride="false" data-bs-pause="false" data-bs-wrap="false">
+									<div class="carousel-inner">
+										<div class="carousel-item active pt-2">
+								<!-- Debut section carousel item 1 -->
+								<div class="row  me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-10%</div>
+									<a href="vue/produits/jeux-consoles/1.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/1.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Generic Jeu de Société - Scrabble Classique Super</h5>
+									<p class="text-center">5 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-10%</div>
+									<a href="vue/produits/jeux-consoles/2.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/2.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Ipega ipega-PG-9083 mannette de jeu rétractable...</h5>
+									<p class="text-center">20 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/jeux-consoles/3.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/3.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Generic Pour Contrôleur Pubg Pour Téléphone Portable 3 En...</h5>
+									<p class="text-center">4 190 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/jeux-consoles/4.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/4.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Ea FIFA 23 - Version Française Intégrale - PS4 - Bleu/B...</h5>
+									<p class="text-center">28 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/jeux-consoles/5.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/5.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Sony Manette PS4 DUALSHOCK 4 - Noir</h5>
+									<p class="text-center">11 390 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/jeux-consoles/6.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/6.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Rockstar Games Grand Theft Auto V GTA 5 - EDITION PREMIUM...</h5>
+									<p class="text-center">18 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+						</div>
+						<!-- fin section carousel item 1 -->
+										</div>
+				<!--------------------caousel item 2------------------------------>
+										<div class="carousel-item pt-2">
+											<div class="row me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/jeux-consoles/7.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/7.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Sony PS5 - ROM 825Go SSD - RAM 16Go - HDR - Blu-ray 4K - Editi...</h5>
+									<p class="text-center">478 700 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/jeux-consoles/8.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/8.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Generic Jeux Console de jeu rétro Console de Jeux 500 en 1</h5>
+									<p class="text-center">9 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/jeux-consoles/9.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/9.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">XBOX Manette filaire pour Xbox 360</h5>
+									<p class="text-center">8 075 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/jeux-consoles/10.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/10.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Nintendo Paire de Manette Joy-Con - Droite bleu néon/Gauche...</h5>
+									<p class="text-center">59 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/jeux-consoles/11.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/11.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Nintendo Pokémon Écarlate - Nintendo Switch</h5>
+									<p class="text-center">45 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/jeux-consoles/12.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/jeux-consoles/12.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Bandai Namco Jump Force Deluxe Edition - Jeu Nintendo Switch</h5>
+									<p class="text-center">42 000 FCFA</p>
+									</a>
+								</article>
+								</div>
+								</div>
+										</div>
+										<!-- END carousel item -->
+									</div>
+									<button type="button" title="precedent" class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#carousel-6">
+										<i class="carousel-control-prev-icon bg-dark me-auto rounded-circle" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+									<button type="button" title="suivant" class="carousel-control-next " data-bs-slide="next" data-bs-target="#carousel-6">
+										<i class="carousel-control-next-icon rounded-circle bg-dark ms-auto" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+										</div>
+							</article>
+						</div>
+			</section>	
+	<!-- ---------------------------FIN jeux 6------------------------------>	
+				<!-- ----------id carousel-7 Mode----------------- -->
+		<section class="mt-5 position-relative shadow-lg rounded">
+				<a href="vue/produits/mode/all.html" class="text-decoration-none text-danger position-absolute end-0 me-2 mt-2">
+				Voir plus
+				<i class="bi-chevron-right text-dark"></i>
+				</a>
+				<h2 class="bg-info rounded-top px-2 text-center fs-2 p-1rounded">Mode</h2>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto rounded">
+							<article>
+								<div id="carousel-7" data-bs-touch="true" data-bs-keyboard="false" class="carousel slide mx-auto" data-bs-ride="false" data-bs-pause="false" data-bs-wrap="false">
+									<div class="carousel-inner">
+										<div class="carousel-item active pt-2">
+								<!-- Debut section carousel item 1 -->
+								<div class="row  me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/1.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/1.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Fashion Pantalons Chino pour Homme-Gris...</h5>
+									<p class="text-center">5 600 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded position-relative">
+									<div class="alert alert-danger bg-danger position-absolute p-0 mx-1 my-1 text-white end-0">-10%</div>
+									<a href="vue/produits/mode/2.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/2.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Fashion Chemises A Rayures Set...</h5>
+									<p class="text-center">7 790 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/3.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/3.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Fashion Pantalons Chino pour Homme Pantalon de chasseu...</h5>
+									<p class="text-center">5 600 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/4.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/4.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Fashion Nouvelles Chaussur...</h5>
+									<p class="text-center">8 700 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/5.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/5.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic 3pcs Hommes T-shirts Fitness Basic Top...</h5>
+									<p class="text-center">6 200 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/6.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/6.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Fashion Jean Homme Pantalon-Bleu...</h5>
+									<p class="text-center">3 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+						</div>
+						<!-- fin section carousel item 1 -->
+										</div>
+				<!--------------------caousel item 2------------------------------>
+										<div class="carousel-item pt-2">
+											<div class="row me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/7.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/7.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Fashion 3 Ensembles Hommes T-shirts Vêtements...</h5>
+									<p class="text-center">5 280 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/8.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/8.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Fashion Sac d'affaires hommes USB sac de poit...</h5>
+									<p class="text-center">2 980 FCFA</p>
+									</a>
+								</article>
+							</div>
+							
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/9.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/9.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Fashion Chaussures pour homme...</h5>
+									<p class="text-center">3 530 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/10.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/10.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Fashion Jeans En Denim à La Mode Pour Hommes...</h5>
+									<p class="text-center">2 580 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/11.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/11.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Fashion Chaussures Pour Hommes Baskets à ...</h5>
+									<p class="text-center">4 980 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/mode/12.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/mode/12.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Fashion Chaussures Baskets Pour Femme - Noir</h5>
+									<p class="text-center">4 799 FCFA</p>
+									</a>
+								</article>
+								</div>
+								</div>
+										</div>
+										<!-- END carousel item -->
+									</div>
+									<button type="button" title="precedent" class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#carousel-7">
+										<i class="carousel-control-prev-icon bg-dark me-auto rounded-circle" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+									<button type="button" title="suivant" class="carousel-control-next " data-bs-slide="next" data-bs-target="#carousel-7">
+										<i class="carousel-control-next-icon rounded-circle bg-dark ms-auto" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+										</div>
+							</article>
+						</div>
+			</section>	
+	<!-- ---------------------------FIN mode 7------------------------------>
+		<!-- ----------id carousel-8 autres----------------- -->
+		<section class="mt-5 position-relative shadow-lg rounded">
+				<a href="vue/produits/autres/all.html" class="text-decoration-none text-danger position-absolute end-0 me-2 mt-2">
+				Voir plus
+				<i class="bi-chevron-right text-dark"></i>
+				</a>
+				<h2 class="bg-info rounded-top px-2 text-center fs-2 p-1rounded">Autres</h2>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto rounded">
+							<article>
+								<div id="carousel-8" data-bs-touch="true" data-bs-keyboard="false" class="carousel slide mx-auto" data-bs-ride="false" data-bs-pause="false" data-bs-wrap="false">
+									<div class="carousel-inner">
+										<div class="carousel-item active pt-2">
+								<!-- Debut section carousel item 1 -->
+								<div class="row  me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/1.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/1.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Generic Tente de camping pour 5 Personnes...</h5>
+									<p class="text-center">20 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/2.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/2.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Savonet Gel Lavant Liquide - Aloé Vera...</h5>
+									<p class="text-center">470 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/3.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/3.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Generic Gants De Ménage et ...</h5>
+									<p class="text-center">3 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/4.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/4.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Generic Laveur automatique...</h5>
+									<p class="text-center">3 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/5.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/5.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic Nouveau Seau Essoreur...</h5>
+									<p class="text-center">11 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/6.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/6.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Leroy Merlin Applique ...</h5>
+									<p class="text-center">7 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+						</div>
+						<!-- fin section carousel item 1 -->
+										</div>
+				<!--------------------caousel item 2------------------------------>
+										<div class="carousel-item pt-2">
+											<div class="row me-5 ms-5 bg-white mt-2">
+								<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/7.html" class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/7.jpg" class="card-img-top">
+										<h5 class="text-center fs-6 mx-1 ">Leroy Merlin Projecteu...</h5>
+									<p class="text-center">8 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/8.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/8.jpg" class="card-img-top ">
+									<h5 class="text-center fs-6 mx-1 ">Generic Souffleur électrique - NOIR...</h5>
+									<p class="text-center">11 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/9.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/9.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Leroy Merlin Parasol déporté hexagonal A...</h5>
+									<p class="text-center">82 000 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/10.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/10.jpg" class=" card-img-top">
+									<h5 class="text-center fs-6 mx-1">Leroy Merlin Table de jardin ...</h5>
+									<p class="text-center">19 900 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/11.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/11.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic Support Frigo - Cuisinièr...</h5>
+									<p class="text-center">10 500 FCFA</p>
+									</a>
+								</article>
+							</div>
+							<div class="cards-wrapper col-6 col-xs-6 col-sm-6 col-md-3 col-lg-2 mb-3 ">
+								<article class="card border border-info border-2 rounded ">
+									<a href="vue/produits/autres/12.html"class="text-dark text-decoration-none">
+										<img src="style/image/produit/autres/12.jpg" class="card-img-top">
+									<h5 class="text-center fs-6 ">Generic Chaise de Bar PP - Gris...</h5>
+									<p class="text-center">79 000 FCFA</p>
+									</a>
+								</article>
+								</div>
+								</div>
+										</div>
+										<!-- END carousel item -->
+									</div>
+									<button type="button" title="precedent" class="carousel-control-prev " data-bs-slide="prev" data-bs-target="#carousel-8">
+										<i class="carousel-control-prev-icon bg-dark me-auto rounded-circle" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+									<button type="button" title="suivant" class="carousel-control-next " data-bs-slide="next" data-bs-target="#carousel-8">
+										<i class="carousel-control-next-icon rounded-circle bg-dark ms-auto" aria-hidden="true"></i>
+										<span class="visually-hidden">L'image precedente</span>
+									</button>
+										</div>
+							</article>
+						</div>
+			</section>	
+	<!-- ---------------------------FIN promo autres------------------------------>		
+			
+			</div>
+	</main>
+	<!-----------------FOOTER-------------------->
+	<footer class="border-top text-light bg-dark pb-2 mt-5">
+		<div class="container">
+			<div class="row mt-5">
+				<div class="col-12 col-md-3 text-center">
+					<ul class="list-inline ">
+						<li><h6>Télécharger notre application </h6></li>
+						<li class="list-inline-item">
+							<a href="https://www.apple.com/app-store/"title="Télécharger sur App Store"class="text-decoration-none text-light"><i class="bi bi-apple"></i> App Store</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://play.google.com/"title="Télécharger sur playstore" class="text-decoration-none text-light"><i class="bi bi-google-play"></i> Playstore</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-3 text-center">
+					<a href="index.html" class="navbar-brand mx-3 fw-bold" title="Afficher la page d'Acceuil">
+					<span class="bg-primary bg-gradient  rounded-3 text-light fs-5">Market </span>Place
+					</a>
+					<p class="text-center">Notre but est de toujours satisfaire nos clients avec les meileurs produits</p>
+				</div>
+				<div class="col-12 col-md-3">
+					<ul class="list-inline text-center">
+						<li><h5>Liens utiles</h5></li>
+						<li>A propos</li>
+						<li>Signaler un produit</li>
+						<li>Politique de Retours et de Remboursements</li>
+						<li>Nous contacter</li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-3">
+					<ul class="list-inline text-center">
+						<li><h6>Suivez-nous</h6></li> 
+						<li class="list-inline-item">
+							<a href="https://fr-fr.facebook.com/"title="Visiter notre page Facebook"><i class="bi bi-facebook"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.linkedin.com/"title="Nous retrouver sur linkedin"><i class="bi bi-linkedin"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://twitter.com/"title="Visiter notre page Twitter"><i class="bi bi-twitter"></i></a>
+						</li>
+						<li class="list-inline-item ">
+							<a href="https://www.instagram.com/"title="Visiter notre page Instagram"><i class="bi bi-instagram"></i></a>
+						</li>
+					</ul>
+				</div>	
+			</div>
+			<hr>
+			<p class="fw-semibold text-center">Copyright 2023 - L1 RI Ahmad Thiongane</p>
+		</div>
+	</footer>
+</body>
+</html>
